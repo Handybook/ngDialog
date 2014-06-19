@@ -135,7 +135,7 @@
 
 							$timeout(function () {
 								$compile($dialog)(scope);
-								$body.addClass('ngdialog-open').append($dialog);
+								$body.append($dialog);
 							});
 
 							if (options.closeByEscape) {
