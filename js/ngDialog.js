@@ -221,7 +221,7 @@
 						controller: attrs.ngDialogController,
 						scope: attrs.ngDialogScope,
 						data: attrs.ngDialogData,
-						showClose: attrs.ngDialogShowClose === 'false' ? false : true,
+						showClose: attrs.ngDialogShowClose === 'false' ? true : false,
 						closeByDocument: attrs.ngDialogCloseByDocument === 'false' ? false : true,
 						closeByEscape: attrs.ngDialogCloseByEscape === 'false' ? false : true
 					});
