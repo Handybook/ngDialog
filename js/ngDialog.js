@@ -115,7 +115,7 @@
 							}
 
 							self.$result = $dialog = $el('<div id="ngdialog' + globalID + '" class="ngdialog"></div>');
-							$dialog.html('<div class="ngdialog-overlay"></div><div class="ngdialog-content">' + template + '</div>');
+							$dialog.html('<div class="ngdialog-overlay"></div>' + template);
 
 							if (options.controller && angular.isString(options.controller)) {
 								$dialog.attr('ng-controller', options.controller);
